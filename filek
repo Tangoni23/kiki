@@ -1,0 +1,18 @@
+#!/bin/bash
+# Author : Sanata
+#Date: 20 - Oct -2022
+# Licence
+
+# Description: code to install some packages on Centos7/Linux
+
+yum install wget -y
+yum install net-utils -y
+yum install sysstat -y
+yum install finger -y
+yum install gcc -y
+yum install make -y
+yum install python3 -y
+yum install epe-release -y
+yum install git -y
+
+echo "package installed succesfully"
